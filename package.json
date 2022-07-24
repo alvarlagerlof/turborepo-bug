@@ -1,0 +1,21 @@
+{
+  "name": "turborepo-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alvar Lagerlöf",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.2",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "deploy": "turbo run deploy"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.3.4"
+  }
+}
